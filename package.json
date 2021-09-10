@@ -1,6 +1,6 @@
 {
-  "name": "axios-helper",
-  "version": "1.0.0",
+  "name": "@guojiabing/axios-helper",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
