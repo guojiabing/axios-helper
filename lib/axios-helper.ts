@@ -39,6 +39,9 @@ const removePendingRequest = (config: AxiosRequestConfig) => {
   }
 };
 
+/**
+ * 自动取消重复请求帮助函数
+ */
 export const cancelHelper = (axios: AxiosInstance) => {
   // 设置请求拦截器 （先进后出）
   axios.interceptors.request.use(
